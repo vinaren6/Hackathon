@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: c50e4121870a39e4bae04bcff3b0ea81
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Besley
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d29d1e3649d1ead4b8258fdbe3b69d4a, type: 3}
+  - {fileID: 12800000, guid: b4202dd0356003442802877c3e21debe, type: 3}
+  - {fileID: 12800000, guid: 823353b7e53f15e4087f493448a5fd9f, type: 3}
+  - {fileID: 12800000, guid: 71215d4983f956b44a81d57070af0ab5, type: 3}
+  - {fileID: 12800000, guid: 515a69a5d88877f4ebf0294c215aa7e0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

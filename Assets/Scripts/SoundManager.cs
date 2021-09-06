@@ -36,9 +36,9 @@ public class SoundManager : MonoBehaviour
     {
        
         int SceneInt = SceneManager.GetActiveScene().buildIndex;
-        if (SceneInt == 1 && flag == false)
+        print(SceneInt);
+        if (SceneInt == 14 && flag == false)
         {
-            print("test");
             audioData.Stop();
             audioData.PlayOneShot(secondAudio, 0.7F);
             flag = true;

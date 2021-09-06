@@ -7,11 +7,18 @@ using UnityEngine.UI;
 public class BtnChangeLevel : MonoBehaviour
 {
     private Button button;
+    int SceneInt;
+    
     // Start is called before the first frame update
     void Start()
     {
         button = GetComponent<Button>(); //Grabs the button component
         button.onClick.AddListener(ButtonClicked); //Adds a listner on the button
+        SceneInt = SceneManager.GetActiveScene().buildIndex;
+        if (SceneInt == 16)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     public void ButtonClicked()
